@@ -1,4 +1,5 @@
----
+---readme-edit
+
 title: GitHub security features
 intro: 'An overview of {% data variables.product.prodname_dotcom %} security features.'
 versions:
@@ -80,7 +81,7 @@ Automatically detect security vulnerabilities and coding errors in new or modifi
 {% endif %}
 
 {% ifversion fpt or ghes > 3.1 or ghae-issue-4864 or ghec %}
-### Dependency review
+### Dependency review 
 
 Show the full impact of changes to dependencies and see details of any vulnerable versions before you merge a pull request. For more information, see "[About dependency review](/code-security/supply-chain-security/about-dependency-review)."
 {% endif %}
